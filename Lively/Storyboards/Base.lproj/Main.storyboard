@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IXQ-58-E52">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Lively-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Lively" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="aqV-Rv-DCJ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z3g-rg-Old">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="301"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home - Closet" translatesAutoresizingMaskIntoConstraints="NO" id="7k5-d8-H5h">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="301"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose from closet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAL-qe-uzk">
+                                                <rect key="frame" x="87.5" y="137.5" width="200.5" height="26.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="EAL-qe-uzk" firstAttribute="centerY" secondItem="Z3g-rg-Old" secondAttribute="centerY" id="6b8-6r-n5C"/>
+                                            <constraint firstItem="7k5-d8-H5h" firstAttribute="top" secondItem="Z3g-rg-Old" secondAttribute="top" id="8S5-dX-O6u"/>
+                                            <constraint firstAttribute="bottom" secondItem="7k5-d8-H5h" secondAttribute="bottom" id="BLT-fR-O1Z"/>
+                                            <constraint firstItem="EAL-qe-uzk" firstAttribute="centerX" secondItem="Z3g-rg-Old" secondAttribute="centerX" id="G7A-G8-V7m"/>
+                                            <constraint firstItem="7k5-d8-H5h" firstAttribute="leading" secondItem="Z3g-rg-Old" secondAttribute="leading" id="R8B-eR-DE5"/>
+                                            <constraint firstAttribute="trailing" secondItem="7k5-d8-H5h" secondAttribute="trailing" id="SJ9-Zo-O8w"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Mz-7u-7zD">
+                                        <rect key="frame" x="0.0" y="302" width="375" height="301"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home - Shop" translatesAutoresizingMaskIntoConstraints="NO" id="OnU-8k-4hh">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="301"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shop for new" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1X-Ab-eaA">
+                                                <rect key="frame" x="119.5" y="137" width="136" height="26.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="OnU-8k-4hh" secondAttribute="trailing" id="EtE-R4-YS2"/>
+                                            <constraint firstItem="OnU-8k-4hh" firstAttribute="leading" secondItem="3Mz-7u-7zD" secondAttribute="leading" id="WJw-Sg-PSQ"/>
+                                            <constraint firstItem="v1X-Ab-eaA" firstAttribute="centerX" secondItem="3Mz-7u-7zD" secondAttribute="centerX" id="eXl-KV-9h0"/>
+                                            <constraint firstItem="v1X-Ab-eaA" firstAttribute="centerY" secondItem="3Mz-7u-7zD" secondAttribute="centerY" id="kCN-5h-bsr"/>
+                                            <constraint firstAttribute="bottom" secondItem="OnU-8k-4hh" secondAttribute="bottom" id="wfs-NV-hjQ"/>
+                                            <constraint firstItem="OnU-8k-4hh" firstAttribute="top" secondItem="3Mz-7u-7zD" secondAttribute="top" id="x9u-R2-ImX"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aqV-Rv-DCJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1OU-5n-FNg"/>
+                            <constraint firstItem="aqV-Rv-DCJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Mhr-PX-K5k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aqV-Rv-DCJ" secondAttribute="trailing" id="sTc-cu-KPj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aqV-Rv-DCJ" secondAttribute="bottom" id="spo-R5-Ses"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Lively" id="Yis-4K-KlN">
+                        <barButtonItem key="leftBarButtonItem" image="Home - Settings" id="f1E-FH-6Qw"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="848.79999999999995" y="-564.46776611694156"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="UAW-mZ-rAP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IXQ-58-E52" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="anf-QI-Rjq">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="2Js-Mt-bvk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Tt-LZ-681" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="-564.46776611694156"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Home - Closet" width="375" height="301"/>
+        <image name="Home - Settings" width="23" height="24"/>
+        <image name="Home - Shop" width="375" height="296"/>
+    </resources>
+</document>

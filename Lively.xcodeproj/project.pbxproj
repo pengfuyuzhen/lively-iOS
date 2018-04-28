@@ -14,6 +14,8 @@
 		A31405A32093B49D0065D55F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31405A12093B49D0065D55F /* LaunchScreen.storyboard */; };
 		A31405AF2093B8DD0065D55F /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A31405AE2093B8CD0065D55F /* Pacifico-Regular.ttf */; };
 		A31405B12093B9AC0065D55F /* UIFont+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31405B02093B9AC0065D55F /* UIFont+extensions.swift */; };
+		A31405B42093D98C0065D55F /* ChooseFromClosetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31405B32093D98C0065D55F /* ChooseFromClosetViewController.swift */; };
+		A31405B62093FB390065D55F /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31405B52093FB390065D55F /* UIView+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A31405A42093B49D0065D55F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A31405AE2093B8CD0065D55F /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		A31405B02093B9AC0065D55F /* UIFont+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+extensions.swift"; sourceTree = "<group>"; };
+		A31405B32093D98C0065D55F /* ChooseFromClosetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFromClosetViewController.swift; sourceTree = "<group>"; };
+		A31405B52093FB390065D55F /* UIView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				A314059A2093B49B0065D55F /* HomeViewController.swift */,
+				A31405B32093D98C0065D55F /* ChooseFromClosetViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -106,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				A31405B02093B9AC0065D55F /* UIFont+extensions.swift */,
+				A31405B52093FB390065D55F /* UIView+extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -183,6 +189,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A314059B2093B49B0065D55F /* HomeViewController.swift in Sources */,
+				A31405B62093FB390065D55F /* UIView+extensions.swift in Sources */,
+				A31405B42093D98C0065D55F /* ChooseFromClosetViewController.swift in Sources */,
 				A31405B12093B9AC0065D55F /* UIFont+extensions.swift in Sources */,
 				A31405992093B49B0065D55F /* AppDelegate.swift in Sources */,
 			);
@@ -338,7 +346,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Fuyuzhen-Peng.Lively";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,7 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Fuyuzhen-Peng.Lively";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

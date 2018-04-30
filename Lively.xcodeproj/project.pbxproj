@@ -16,6 +16,7 @@
 		A31405B12093B9AC0065D55F /* UIFont+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31405B02093B9AC0065D55F /* UIFont+extensions.swift */; };
 		A31405B42093D98C0065D55F /* ChooseFromClosetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31405B32093D98C0065D55F /* ChooseFromClosetViewController.swift */; };
 		A31405B62093FB390065D55F /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31405B52093FB390065D55F /* UIView+extensions.swift */; };
+		A3E398D72097DF650006C0E0 /* ChooseEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E398D62097DF650006C0E0 /* ChooseEventViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A31405B02093B9AC0065D55F /* UIFont+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+extensions.swift"; sourceTree = "<group>"; };
 		A31405B32093D98C0065D55F /* ChooseFromClosetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFromClosetViewController.swift; sourceTree = "<group>"; };
 		A31405B52093FB390065D55F /* UIView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extensions.swift"; sourceTree = "<group>"; };
+		A3E398D62097DF650006C0E0 /* ChooseEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseEventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				A314059A2093B49B0065D55F /* HomeViewController.swift */,
 				A31405B32093D98C0065D55F /* ChooseFromClosetViewController.swift */,
+				A3E398D62097DF650006C0E0 /* ChooseEventViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			files = (
 				A314059B2093B49B0065D55F /* HomeViewController.swift in Sources */,
 				A31405B62093FB390065D55F /* UIView+extensions.swift in Sources */,
+				A3E398D72097DF650006C0E0 /* ChooseEventViewController.swift in Sources */,
 				A31405B42093D98C0065D55F /* ChooseFromClosetViewController.swift in Sources */,
 				A31405B12093B9AC0065D55F /* UIFont+extensions.swift in Sources */,
 				A31405992093B49B0065D55F /* AppDelegate.swift in Sources */,

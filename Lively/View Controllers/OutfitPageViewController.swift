@@ -18,6 +18,18 @@ final class OutfitPageViewController: UIPageViewController {
         self.setViewControllers([firstViewController], direction: .forward, animated: false, completion: nil)
     }
     
+    /// Display the next outfit in the page view controller
+    func showNextOutfit() {
+        guard let currentViewController = self.viewControllers?.first,
+            let nextViewController = self.pageViewController(self, viewControllerAfter: currentViewController)
+            else
+        {
+            return
+        }
+        
+        self.setViewControllers([nextViewController], direction: .forward, animated: true, completion: nil)
+    }
+    
     fileprivate func getOutfitViewController(withData data: [String: Any]) -> OutfitViewController {
         let viewController = self.storyboard?.instantiateViewController(withIdentifier: "outfit")
             as! OutfitViewController
@@ -39,7 +51,7 @@ extension OutfitPageViewController: UIPageViewControllerDataSource {
         }
     
         if outfitRank == 1 {
-            return nil
+            return self.getOutfitViewController(withData: self.outfits[self.outfits.count - 1])
         }
         
         return self.getOutfitViewController(withData: self.outfits[outfitRank - 2])
@@ -55,7 +67,7 @@ extension OutfitPageViewController: UIPageViewControllerDataSource {
         }
         
         if outfitRank == self.outfits.count {
-            return nil
+            return self.getOutfitViewController(withData: self.outfits[0])
         }
         
         return self.getOutfitViewController(withData: self.outfits[outfitRank])

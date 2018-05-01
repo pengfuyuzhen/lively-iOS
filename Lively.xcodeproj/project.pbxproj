@@ -17,6 +17,8 @@
 		A31405B42093D98C0065D55F /* ChooseFromClosetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31405B32093D98C0065D55F /* ChooseFromClosetViewController.swift */; };
 		A31405B62093FB390065D55F /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31405B52093FB390065D55F /* UIView+extensions.swift */; };
 		A3E398D72097DF650006C0E0 /* ChooseEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E398D62097DF650006C0E0 /* ChooseEventViewController.swift */; };
+		A3E398D92097E2B60006C0E0 /* OutfitPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E398D82097E2B60006C0E0 /* OutfitPageViewController.swift */; };
+		A3E398DB2097E71D0006C0E0 /* OutfitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E398DA2097E71D0006C0E0 /* OutfitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		A31405B32093D98C0065D55F /* ChooseFromClosetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFromClosetViewController.swift; sourceTree = "<group>"; };
 		A31405B52093FB390065D55F /* UIView+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extensions.swift"; sourceTree = "<group>"; };
 		A3E398D62097DF650006C0E0 /* ChooseEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseEventViewController.swift; sourceTree = "<group>"; };
+		A3E398D82097E2B60006C0E0 /* OutfitPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitPageViewController.swift; sourceTree = "<group>"; };
+		A3E398DA2097E71D0006C0E0 /* OutfitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				A314059A2093B49B0065D55F /* HomeViewController.swift */,
 				A31405B32093D98C0065D55F /* ChooseFromClosetViewController.swift */,
 				A3E398D62097DF650006C0E0 /* ChooseEventViewController.swift */,
+				A3E398D82097E2B60006C0E0 /* OutfitPageViewController.swift */,
+				A3E398DA2097E71D0006C0E0 /* OutfitViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -192,11 +198,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A314059B2093B49B0065D55F /* HomeViewController.swift in Sources */,
+				A3E398D92097E2B60006C0E0 /* OutfitPageViewController.swift in Sources */,
 				A31405B62093FB390065D55F /* UIView+extensions.swift in Sources */,
 				A3E398D72097DF650006C0E0 /* ChooseEventViewController.swift in Sources */,
 				A31405B42093D98C0065D55F /* ChooseFromClosetViewController.swift in Sources */,
 				A31405B12093B9AC0065D55F /* UIFont+extensions.swift in Sources */,
 				A31405992093B49B0065D55F /* AppDelegate.swift in Sources */,
+				A3E398DB2097E71D0006C0E0 /* OutfitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
